@@ -1,0 +1,19 @@
+{
+  "name": "@kou029w/http-echo",
+  "version": "1.0.0",
+  "description": "HTTP Echo Server",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "sync-glitch-cli": "latest"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
