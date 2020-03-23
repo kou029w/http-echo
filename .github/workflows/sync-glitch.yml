@@ -1,0 +1,21 @@
+name: sync-glitch
+on:
+  push:
+    branches: [master]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: echo "::set-env name=YARN_CACHE_DIR::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ env.YARN_CACHE_DIR }}
+          key: yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: yarn-
+      - run: yarn
+      - run: echo "::set-env name=GH_REPO::${GITHUB_REPOSITORY}"
+      - run: yarn sync-glitch
+        env:
+          GLITCH_PROJECT_ID: "${{ secrets.GLITCH_PROJECT_ID }}"
+          GLITCH_TOKEN: "${{ secrets.GLITCH_TOKEN }}"
