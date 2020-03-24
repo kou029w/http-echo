@@ -4,9 +4,8 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.raw({ type: "*/*" }));
+app.set("json spaces", 2);
 app.all("/*", function(req, res) {
-  app.set("json spaces", req.path === "/pretty" ? 2 : null);
-
   res.json({
     headers: req.headers,
     body: req.body.length > 0 ? req.body.toString() : null,
