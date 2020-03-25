@@ -1,0 +1,10 @@
+name: sync-codesandbox
+on:
+  push:
+    branches: [master]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kou029w/sync-codesandbox@master
+        with: { repo: "${{ github.repository }}" }
