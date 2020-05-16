@@ -5,3 +5,6 @@
   from = "/*"
   to = "/.netlify/functions/netlify-function"
   status = 200
+[template.environment]
+  HTTP_USERNAME = "User name for testing the /basic-auth endpoint"
+  HTTP_PASSWORD = "Password for testing the /basic-auth endpoint"
