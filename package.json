@@ -8,6 +8,7 @@
     "start": "node -r dotenv/config index.js"
   },
   "dependencies": {
+    "aws-serverless-express": "latest",
     "cookie-parser": "latest",
     "express": "latest",
     "morgan": "latest",
