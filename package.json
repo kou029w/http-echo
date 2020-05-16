@@ -8,7 +8,6 @@
     "start": "node -r dotenv/config index.js"
   },
   "dependencies": {
-    "aws-serverless-express": "latest",
     "cookie-parser": "latest",
     "express": "latest",
     "morgan": "latest",
@@ -16,6 +15,7 @@
     "passport-http": "latest"
   },
   "devDependencies": {
+    "aws-serverless-express": "latest",
     "dotenv": "latest",
     "sync-glitch-cli": "latest"
   },
