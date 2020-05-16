@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "cookie-parser": "latest",
+    "dotenv": "latest",
     "express": "latest",
     "morgan": "latest",
     "passport": "latest",
@@ -16,7 +17,6 @@
   },
   "devDependencies": {
     "aws-serverless-express": "latest",
-    "dotenv": "latest",
     "sync-glitch-cli": "latest"
   },
   "engines": {
