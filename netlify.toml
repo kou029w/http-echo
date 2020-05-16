@@ -1,5 +1,6 @@
 [build]
   functions = "netlify-functions"
+  command = ":"
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/app"
