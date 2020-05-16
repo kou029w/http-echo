@@ -1,11 +1,14 @@
 const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
 const passport = require("passport");
+
 const { BasicStrategy } = require("passport-http");
 const { timingSafeEqual } = require("crypto");
 const { HTTP_USERNAME, HTTP_PASSWORD } = process.env;
 
 passport.use(
-  new BasicStrategy(function(username, password, done) {
+  new BasicStrategy(function (username, password, done) {
     return done(
       null,
       HTTP_USERNAME != null &&
@@ -19,21 +22,13 @@ passport.use(
 
 const app = express();
 
+app.use(cookieParser());
+app.use(morgan("combined"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.raw({ type: "*/*" }));
 app.set("json spaces", 2);
 app.all("/basic-auth", passport.authenticate("basic", { session: false }));
-app.all("/*", function(req, res) {
-  res.json({
-    headers: req.headers,
-    body: req.body.length > 0 ? req.body.toString() : null,
-    form: req.is("urlencoded") ? req.body : null,
-    json: req.is("json") ? req.body : null,
-    method: req.method,
-    target: req.url,
-    host: req.headers.host
-  });
-});
+app.all("/*", require("./api/app.js"));
 
 app.listen(process.env.PORT || 8080);
