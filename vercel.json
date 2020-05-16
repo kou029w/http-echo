@@ -1,4 +1,4 @@
 {
   "version": 2,
-  "routes": [{ "src": "/.*", "dest": "/api/app.js" }]
+  "routes": [{ "src": "/.*", "dest": "/api/echo.js" }]
 }

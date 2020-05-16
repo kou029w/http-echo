@@ -29,6 +29,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.raw({ type: "*/*" }));
 app.set("json spaces", 2);
 app.all("/basic-auth", passport.authenticate("basic", { session: false }));
-app.all("/*", require("./api/app.js"));
+app.all("/*", require("./api/echo.js"));
 
-app.listen(process.env.PORT || 8080);
+if (require.main === module) app.listen(process.env.PORT || 8080);
+
+module.exports = app;
