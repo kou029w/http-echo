@@ -2,15 +2,16 @@
 
 A simple HTTP request and response testing server.
 
-| Host               | Deploy                                                           | Demo                                     |
-| ------------------ | ---------------------------------------------------------------- | ---------------------------------------- |
-| [netlify.com][]    | [![Deploy to Netlify][netlify-button]][netlify-deploy]           | https://http-echo.netlify.app/           |
-| [vercel.com][]     | [![Deploy to Vercel][vercel-button]][vercel-deploy]              | https://http-echo.now.sh/                |
-| [glitch.com][]     | [![Remix on Glitch][glitch-button]][glitch-deploy]               | http://http-echo.glitch.me/              |
-| [codesandbox.io][] | [![Edit in CodeSandbox][codesandbox-button]][codesandbox-deploy] | https://fe8lf.sse.codesandbox.io/        |
-| [heroku.com][]     | [![Deploy to Heroku][heroku-button]][heroku-deploy]              | http://http--echo.herokuapp.com/         |
-| [fly.io][]         | [`flyctl deploy`][fly-deploy]                                    | https://http-echo.fly.dev/               |
-| [zarvis.ai][]      | [![Deploy to ZARVIS][zarvis-button]][zarvis-deploy]              | https://http--echo-kou029w.g1.zarvis.ai/ |
+| Host               | Deploy                                                           | Demo                                       |
+| ------------------ | ---------------------------------------------------------------- | ------------------------------------------ |
+| [netlify.com][]    | [![Deploy to Netlify][netlify-button]][netlify-deploy]           | https://http-echo.netlify.app/             |
+| [vercel.com][]     | [![Deploy to Vercel][vercel-button]][vercel-deploy]              | https://http-echo.now.sh/                  |
+| [glitch.com][]     | [![Remix on Glitch][glitch-button]][glitch-deploy]               | http://http-echo.glitch.me/                |
+| [codesandbox.io][] | [![Edit in CodeSandbox][codesandbox-button]][codesandbox-deploy] | https://fe8lf.sse.codesandbox.io/          |
+| [heroku.com][]     | [![Deploy to Heroku][heroku-button]][heroku-deploy]              | http://http--echo.herokuapp.com/           |
+| [fly.io][]         | [`flyctl deploy`][fly-deploy]                                    | https://http-echo.fly.dev/                 |
+| [zarvis.ai][]      | [![Deploy to ZARVIS][zarvis-button]][zarvis-deploy]              | https://http--echo-kou029w.g1.zarvis.ai/   |
+| [cloud.run][]      | [![Run on Google Cloud][cloud-run-button]][cloud-run-deploy]     | https://http-echo-jbhds67nka-uw.a.run.app/ |
 
 [netlify.com]: https://www.netlify.com/
 [netlify-button]: https://www.netlify.com/img/deploy/button.svg
@@ -32,3 +33,6 @@ A simple HTTP request and response testing server.
 [zarvis.ai]: https://zarvis.ai/
 [zarvis-button]: https://zarvis.ai/api/open/button.svg
 [zarvis-deploy]: https://zarvis.ai/api/open
+[cloud.run]: https://cloud.run/
+[cloud-run-button]: https://deploy.cloud.run/button.svg
+[cloud-run-deploy]: https://deploy.cloud.run
