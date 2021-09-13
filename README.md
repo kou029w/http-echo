@@ -11,7 +11,6 @@ A simple HTTP request and response testing server.
 | [codesandbox.io][] | [![Edit on CodeSandbox][codesandbox-button]][codesandbox-deploy] | https://fe8lf.sse.codesandbox.io/          | ![codesandbox-status][codesandbox-status] | ![codesandbox-response][codesandbox-response] |
 | [heroku.com][]     | [![Deploy to Heroku][heroku-button]][heroku-deploy]              | http://http--echo.herokuapp.com/           | ![heroku-status][heroku-status]           | ![heroku-response][heroku-response]           |
 | [fly.io][]         | [`flyctl deploy`][fly-deploy]                                    | https://http-echo.fly.dev/                 | ![fly-status][fly-status]                 | ![fly-response][fly-response]                 |
-| [zarvis.ai][]      | [![Deploy to ZARVIS][zarvis-button]][zarvis-deploy]              | https://http--echo-kou029w.g1.zarvis.ai/   | ![zarvis-status][zarvis-status]           | ![zarvis-response][zarvis-response]           |
 | [cloud.run][]      | [![Run on Google Cloud][cloud-run-button]][cloud-run-deploy]     | https://http-echo-jbhds67nka-uw.a.run.app/ | ![cloud-run-status][cloud-run-status]     | ![cloud-run-response][cloud-run-response]     |
 
 [netlify.com]: https://www.netlify.com/
@@ -48,11 +47,6 @@ A simple HTTP request and response testing server.
 [fly-deploy]: https://fly.io/docs/speedrun/
 [fly-status]: https://badgen.net/uptime-robot/month/m785227121-c123ab01967bdea4c74d9592?cache=3600
 [fly-response]: https://badgen.net/uptime-robot/response/m785227121-c123ab01967bdea4c74d9592?cache=3600
-[zarvis.ai]: https://zarvis.ai/
-[zarvis-button]: https://zarvis.ai/api/open/button.svg
-[zarvis-deploy]: https://zarvis.ai/api/open
-[zarvis-status]: https://badgen.net/uptime-robot/month/m785227125-fa52f0e9aeb45093812711c3?cache=3600
-[zarvis-response]: https://badgen.net/uptime-robot/response/m785227125-fa52f0e9aeb45093812711c3?cache=3600
 [cloud.run]: https://cloud.run/
 [cloud-run-button]: https://deploy.cloud.run/button.svg
 [cloud-run-deploy]: https://deploy.cloud.run
