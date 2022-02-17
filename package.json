@@ -20,6 +20,6 @@
     "sync-glitch-cli": "latest"
   },
   "engines": {
-    "node": "10.x"
+    "node": ">=12"
   }
 }
