@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: http-echo
+    env: node
+    plan: free
+    buildCommand: yarn
+    startCommand: node index.js
