@@ -12,7 +12,7 @@ A simple HTTP request and response testing server.
 | [heroku.com][]     | [![Deploy to Heroku][heroku-button]][heroku-deploy]              | http://http--echo.herokuapp.com/           | ![heroku-status][heroku-status]           | ![heroku-response][heroku-response]           |
 | [fly.io][]         | [`flyctl deploy`][fly-deploy]                                    | https://http-echo.fly.dev/                 | ![fly-status][fly-status]                 | ![fly-response][fly-response]                 |
 | [cloud.run][]      | [![Run on Google Cloud][cloud-run-button]][cloud-run-deploy]     | https://http-echo-jbhds67nka-uw.a.run.app/ | ![cloud-run-status][cloud-run-status]     | ![cloud-run-response][cloud-run-response]     |
-| [render.com][]     | [![Deploy to Render][render-button]][render-deploy]              |                                            |                                           |                                               |
+| [render.com][]     | [![Deploy to Render][render-button]][render-deploy]              | https://http-echo-8zjm.onrender.com/       | ![render-status][render-status]           | ![render-response][render-response]           |
 
 [netlify.com]: https://www.netlify.com/
 [netlify-button]: https://www.netlify.com/img/deploy/button.svg
@@ -56,3 +56,5 @@ A simple HTTP request and response testing server.
 [render.com]: https://render.com/
 [render-button]: https://render.com/images/deploy-to-render-button.svg
 [render-deploy]: https://render.com/deploy
+[render-status]: https://badgen.net/uptime-robot/month/m791543526-18f7ccd6063fcf22ce126e7f?cache=3600
+[render-response]: https://badgen.net/uptime-robot/response/m791543526-18f7ccd6063fcf22ce126e7f?cache=3600
