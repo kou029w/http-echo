@@ -5,7 +5,7 @@ A simple HTTP request and response testing server.
 | Host               | Deploy                                                           | Demo                                       | Status                                                            |
 | ------------------ | ---------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------- |
 | [netlify.com][]    | [![Deploy to Netlify][netlify-button]][netlify-deploy]           | https://http-echo.netlify.app/             | [![netlify-status][netlify-status]][netlify-response]             |
-| [vercel.com][]     | [![Deploy to Vercel][vercel-button]][vercel-deploy]              | https://http-echo.now.sh/                  | [![vercel-status][vercel-status]][vercel-response]                |
+| [vercel.com][]     | [![Deploy to Vercel][vercel-button]][vercel-deploy]              | https://http-echo.vercel.app/              | [![vercel-status][vercel-status]][vercel-response]                |
 | [repl.it][]        | [![Run on Repl.it][replit-button]][replit-deploy]                | https://http-echo.kou029w.repl.co/         | [![replit-status][replit-status]][replit-response]                |
 | [glitch.com][]     | [![Remix on Glitch][glitch-button]][glitch-deploy]               | http://http-echo.glitch.me/                | [![glitch-status][glitch-status]][glitch-response]                |
 | [codesandbox.io][] | [![Edit on CodeSandbox][codesandbox-button]][codesandbox-deploy] | https://fe8lf.sse.codesandbox.io/          | [![codesandbox-status][codesandbox-status]][codesandbox-response] |
