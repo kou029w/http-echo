@@ -16,10 +16,9 @@
     "passport-http": "latest"
   },
   "devDependencies": {
-    "aws-serverless-express": "latest",
-    "sync-glitch-cli": "latest"
+    "aws-serverless-express": "latest"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   }
 }
