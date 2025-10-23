@@ -3,5 +3,19 @@
   "version": "2.0.0-alpha",
   "description": "HTTP Echo Server",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "node src/node.ts",
+    "dev": "node --watch src/node.ts",
+    "dev:cloudflare": "wrangler dev",
+    "deploy:cloudflare": "wrangler deploy"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241231.0",
+    "wrangler": "^3.103.0"
+  }
 }
