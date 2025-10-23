@@ -1,24 +1,7 @@
 {
   "name": "@kou029w/http-echo",
-  "version": "1.0.0",
+  "version": "2.0.0-alpha",
   "description": "HTTP Echo Server",
-  "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "start": "node -r dotenv/config index.js"
-  },
-  "dependencies": {
-    "cookie-parser": "latest",
-    "dotenv": "latest",
-    "express": "latest",
-    "morgan": "latest",
-    "passport": "latest",
-    "passport-http": "latest"
-  },
-  "devDependencies": {
-    "aws-serverless-express": "latest"
-  },
-  "engines": {
-    "node": ">=14"
-  }
+  "type": "module"
 }
