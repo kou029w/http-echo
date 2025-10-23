@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: http-echo
+    runtime: node
+    buildCommand: npm install
+    startCommand: node --run=start
+    plan: free
