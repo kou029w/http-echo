@@ -1,6 +1,6 @@
 {
   "name": "http-echo",
-  "main": "src/cloudflare.ts",
+  "main": "cloudflare.ts",
   "compatibility_date": "2025-01-23",
   "observability": {
     "enabled": true

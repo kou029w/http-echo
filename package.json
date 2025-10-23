@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node src/node.ts",
-    "dev": "node --watch src/node.ts",
+    "start": "node main.ts",
+    "dev": "node --watch main.ts",
     "dev:cloudflare": "wrangler dev",
     "deploy:cloudflare": "wrangler deploy"
   },

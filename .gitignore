@@ -5,3 +5,6 @@ package-lock.json
 # For wrangler
 dist
 .wrangler
+
+# For Deno
+deno.lock
