@@ -2,9 +2,12 @@ node_modules
 package-lock.json
 .env
 
-# For wrangler
+# wrangler
 dist
 .wrangler
 
-# For Deno
+# Deno
 deno.lock
+
+# Vercel
+.vercel

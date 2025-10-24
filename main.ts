@@ -1,7 +1,5 @@
 import { serve } from "@hono/node-server";
-import { createApp } from "./app.ts";
-
-const app = createApp();
+import app from "./app.ts";
 
 serve(app, ({ port }) => {
   console.log(`Server is running on http://localhost:${port}`);
