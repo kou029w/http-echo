@@ -6,6 +6,7 @@ A simple HTTP request and response testing server.
 | --------------------------------------------------------------- | -------------------------------------- | ----------------------------------------------------------- |
 | [![Deploy to Cloudflare][cloudflare-button]][cloudflare-deploy] | https://http-echo.kou029w.workers.dev/ | [![cloudflare-status][cloudflare-status]][cloudflare-stats] |
 | [![Deploy with Vercel][vercel-button]][vercel-deploy]           | https://http-echo.vercel.app/          | [![vercel-status][vercel-status]][vercel-stats]             |
+| [![Deploy to Netlify][netlify-button]][netlify-deploy]          | https://http-echo.netlify.app/         | [![netlify-status][netlify-status]][netlify-stats]          |
 | [`flyctl deploy`][fly-deploy]                                   | https://http-echo.fly.dev/             | [![fly-status][fly-status]][fly-stats]                      |
 | [![Deploy on Deno][deno-button]][deno-deploy]                   | https://http-echo.fogtype.deno.net/    | [![deno-status][deno-status]][deno-stats]                   |
 | [![Deploy to Render][render-button]][render-deploy]             | https://http-echo-8zjm.onrender.com/   | [![render-status][render-status]][render-stats]             |
@@ -18,6 +19,10 @@ A simple HTTP request and response testing server.
 [vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkou029w%2Fhttp-echo
 [vercel-status]: https://badgen.net/uptime-robot/month/m785227110-ad9ed6f027362deca73c5545?cache=3600
 [vercel-stats]: https://stats.uptimerobot.com/nvFNpdDe66/785227110
+[netlify-button]: https://www.netlify.com/img/deploy/button.svg
+[netlify-deploy]: https://app.netlify.com/start/deploy?repository=https://github.com/kou029w/http-echo
+[netlify-status]: https://badgen.net/uptime-robot/month/m785227106-68817ca23ae856b934c57eae?cache=3600
+[netlify-stats]: https://stats.uptimerobot.com/nvFNpdDe66/785227106
 [fly-deploy]: https://fly.io/speedrun
 [fly-status]: https://badgen.net/uptime-robot/month/m785227121-c123ab01967bdea4c74d9592?cache=3600
 [fly-stats]: https://stats.uptimerobot.com/nvFNpdDe66/785227121
@@ -36,7 +41,7 @@ A simple HTTP request and response testing server.
 - [x] cloudflare worker support
 - [x] deno deploy support
 - [x] vercel support
-- [ ] netlify support
+- [x] netlify support
 - [x] fly.io support
 - [ ] cloud run support
 - [ ] firebase support
