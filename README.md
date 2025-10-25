@@ -9,6 +9,7 @@ A simple HTTP request and response testing server.
 | [![Deploy to Cloudflare][cloudflare-button]][cloudflare-deploy] | https://http-echo.kou029w.workers.dev/           | [![cloudflare-status][cloudflare-status]][cloudflare-stats]                   |
 | [`wrangler pages deploy`][cloudflare-pages-deploy]              | https://http-echo.pages.dev/                     | [![cloudflare-pages-status][cloudflare-pages-status]][cloudflare-pages-stats] |
 | [![Deploy on Deno][deno-button]][deno-deploy]                   | https://http-echo.fogtype.deno.net/              | [![deno-status][deno-status]][deno-stats]                                     |
+| [`deployctl deploy`][deno-classic-deploy]                       | https://httpecho.deno.dev/                       | [![deno-classic-status][deno-classic-status]][deno-classic-stats]             |
 | [![Run on Google Cloud][cloud-run-button]][cloud-run-deploy]    | https://http-echo-368421396473.us-west1.run.app/ | [![cloud-run-status][cloud-run-status]][cloud-run-stats]                      |
 | [`flyctl deploy`][fly-deploy]                                   | https://http-echo.fly.dev/                       | [![fly-status][fly-status]][fly-stats]                                        |
 | [![Deploy to Koyeb][koyeb-button]][koyeb-deploy]                | https://http-echo.koyeb.app/                     | [![koyeb-status][koyeb-status]][koyeb-stats]                                  |
@@ -34,6 +35,9 @@ A simple HTTP request and response testing server.
 [deno-deploy]: https://console.deno.com/new?clone=https://github.com/kou029w/http-echo
 [deno-status]: https://badgen.net/uptime-robot/month/m801646133-d2ea21dc6f51e67333d44d8d?cache=3600
 [deno-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801646133
+[deno-classic-deploy]: https://docs.deno.com/deploy/classic/
+[deno-classic-status]: https://badgen.net/uptime-robot/month/m801659081-278df77e208589a7b1df6ed8?cache=3600
+[deno-classic-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801659081
 [cloud-run-button]: https://deploy.cloud.run/button.svg
 [cloud-run-deploy]: https://deploy.cloud.run/?git_repo=https://github.com/kou029w/http-echo
 [cloud-run-status]: https://badgen.net/uptime-robot/month/m785227129-d960a8a50ba6f79398c4106e?cache=3600
