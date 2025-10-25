@@ -1,6 +1,6 @@
 {
   "name": "http-echo",
-  "main": "app.ts",
+  "main": "_worker.ts",
   "compatibility_date": "2025-01-23",
   "observability": {
     "enabled": true

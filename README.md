@@ -2,17 +2,18 @@
 
 A simple HTTP request and response testing server.
 
-| Deploy                                                          | Demo                                             | Status                                                      |
-| --------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------- |
-| [![Deploy with Vercel][vercel-button]][vercel-deploy]           | https://http-echo.vercel.app/                    | [![vercel-status][vercel-status]][vercel-stats]             |
-| [![Deploy to Netlify][netlify-button]][netlify-deploy]          | https://http-echo.netlify.app/                   | [![netlify-status][netlify-status]][netlify-stats]          |
-| [![Deploy to Cloudflare][cloudflare-button]][cloudflare-deploy] | https://http-echo.kou029w.workers.dev/           | [![cloudflare-status][cloudflare-status]][cloudflare-stats] |
-| [![Deploy on Deno][deno-button]][deno-deploy]                   | https://http-echo.fogtype.deno.net/              | [![deno-status][deno-status]][deno-stats]                   |
-| [![Run on Google Cloud][cloud-run-button]][cloud-run-deploy]    | https://http-echo-368421396473.us-west1.run.app/ | [![cloud-run-status][cloud-run-status]][cloud-run-stats]    |
-| [`flyctl deploy`][fly-deploy]                                   | https://http-echo.fly.dev/                       | [![fly-status][fly-status]][fly-stats]                      |
-| [![Deploy to Koyeb][koyeb-button]][koyeb-deploy]                | https://http-echo.koyeb.app/                     | [![koyeb-status][koyeb-status]][koyeb-stats]                |
-| [![Deploy to Render][render-button]][render-deploy]             | https://http-echo-8zjm.onrender.com/             | [![render-status][render-status]][render-stats]             |
-| [![Deploy on Railway][railway-button]][railway-deploy]          | https://http-echo.up.railway.app/                | [![railway-status][railway-status]][railway-stats]          |
+| Deploy                                                          | Demo                                             | Status                                                                        |
+| --------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------- |
+| [![Deploy with Vercel][vercel-button]][vercel-deploy]           | https://http-echo.vercel.app/                    | [![vercel-status][vercel-status]][vercel-stats]                               |
+| [![Deploy to Netlify][netlify-button]][netlify-deploy]          | https://http-echo.netlify.app/                   | [![netlify-status][netlify-status]][netlify-stats]                            |
+| [![Deploy to Cloudflare][cloudflare-button]][cloudflare-deploy] | https://http-echo.kou029w.workers.dev/           | [![cloudflare-status][cloudflare-status]][cloudflare-stats]                   |
+| [`wrangler pages deploy`][cloudflare-pages-deploy]              | https://http-echo.pages.dev/                     | [![cloudflare-pages-status][cloudflare-pages-status]][cloudflare-pages-stats] |
+| [![Deploy on Deno][deno-button]][deno-deploy]                   | https://http-echo.fogtype.deno.net/              | [![deno-status][deno-status]][deno-stats]                                     |
+| [![Run on Google Cloud][cloud-run-button]][cloud-run-deploy]    | https://http-echo-368421396473.us-west1.run.app/ | [![cloud-run-status][cloud-run-status]][cloud-run-stats]                      |
+| [`flyctl deploy`][fly-deploy]                                   | https://http-echo.fly.dev/                       | [![fly-status][fly-status]][fly-stats]                                        |
+| [![Deploy to Koyeb][koyeb-button]][koyeb-deploy]                | https://http-echo.koyeb.app/                     | [![koyeb-status][koyeb-status]][koyeb-stats]                                  |
+| [![Deploy to Render][render-button]][render-deploy]             | https://http-echo-8zjm.onrender.com/             | [![render-status][render-status]][render-stats]                               |
+| [![Deploy on Railway][railway-button]][railway-deploy]          | https://http-echo.up.railway.app/                | [![railway-status][railway-status]][railway-stats]                            |
 
 [vercel-button]: https://vercel.com/button
 [vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkou029w%2Fhttp-echo
@@ -26,6 +27,9 @@ A simple HTTP request and response testing server.
 [cloudflare-deploy]: https://deploy.workers.cloudflare.com/?url=https://github.com/kou029w/http-echo
 [cloudflare-status]: https://badgen.net/uptime-robot/month/m801645762-234ab987c7897610095045d2?cache=3600
 [cloudflare-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801645762
+[cloudflare-pages-deploy]: https://developers.cloudflare.com/workers/wrangler/commands/#deploy-1
+[cloudflare-pages-status]: https://badgen.net/uptime-robot/month/m801658952-9ede2b689610545f32b10c42?cache=3600
+[cloudflare-pages-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801658952
 [deno-button]: https://deno.com/button
 [deno-deploy]: https://console.deno.com/new?clone=https://github.com/kou029w/http-echo
 [deno-status]: https://badgen.net/uptime-robot/month/m801646133-d2ea21dc6f51e67333d44d8d?cache=3600
