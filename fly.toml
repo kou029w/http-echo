@@ -7,3 +7,7 @@ port = "80"
 [[services.ports]]
 handlers = ["tls", "http"]
 port = "443"
+
+[[services.tcp_checks]]
+interval = "15s"
+timeout = "2s"
