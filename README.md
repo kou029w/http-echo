@@ -11,6 +11,7 @@ A simple HTTP request and response testing server.
 | [![Deploy on Deno][deno-button]][deno-deploy]                   | https://http-echo.fogtype.deno.net/    | [![deno-status][deno-status]][deno-stats]                   |
 | [![Deploy on Railway][railway-button]][railway-deploy]          | https://http-echo.up.railway.app/      | [![railway-status][railway-status]][railway-stats]          |
 | [![Deploy to Render][render-button]][render-deploy]             | https://http-echo-8zjm.onrender.com/   | [![render-status][render-status]][render-stats]             |
+| [![Deploy to Koyeb][koyeb-button]][koyeb-deploy]                | https://http-echo.koyeb.app/           | [![koyeb-status][koyeb-status]][koyeb-stats]                |
 
 [cloudflare-button]: https://deploy.workers.cloudflare.com/button
 [cloudflare-deploy]: https://deploy.workers.cloudflare.com/?url=https://github.com/kou029w/http-echo
@@ -39,6 +40,10 @@ A simple HTTP request and response testing server.
 [render-deploy]: https://render.com/deploy?repo=https://github.com/kou029w/http-echo
 [render-status]: https://badgen.net/uptime-robot/month/m791543526-18f7ccd6063fcf22ce126e7f?cache=3600
 [render-stats]: https://stats.uptimerobot.com/nvFNpdDe66/791543526
+[koyeb-button]: https://www.koyeb.com/static/images/deploy/button.svg
+[koyeb-deploy]: https://app.koyeb.com/services/deploy?repository=kou029w%2Fhttp-echo&type=git&ports=3000;http;/
+[koyeb-status]: https://badgen.net/uptime-robot/month/m801658650-6f41ccf9a268bfb3da1110e9?cache=3600
+[koyeb-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801658650
 
 ## TODO
 
@@ -55,5 +60,5 @@ A simple HTTP request and response testing server.
 - [ ] supabase support
 - [ ] codespaces support
 - [ ] codesandbox.io support
-- [ ] koyeb.com support
+- [x] koyeb.com support
 - [ ] northflank.com support
