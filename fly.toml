@@ -1,8 +1,5 @@
 app = "http-echo"
 
-[[services]]
-internal_port = 3000
-
 [[services.ports]]
 handlers = ["http"]
 port = "80"

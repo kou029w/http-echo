@@ -1,6 +1,6 @@
 {
   "name": "@kou029w/http-echo",
-  "version": "2.0.0-alpha",
+  "version": "2.0.0",
   "description": "HTTP Echo Server",
   "license": "MIT",
   "type": "module",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241231.0",
+    "@types/node": "^24.9.1",
     "wrangler": "^3.103.0"
   },
   "engines": {
