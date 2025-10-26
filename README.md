@@ -60,9 +60,9 @@ A simple HTTP request and response testing server.
 [koyeb-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801658650
 [render-button]: https://render.com/images/deploy-to-render-button.svg
 [render-deploy]: https://render.com/deploy?repo=https://github.com/kou029w/http-echo
-[render-status]: https://img.shields.io/uptimerobot/ratio/m791543526-18f7ccd6063fcf22ce126e7f
-[render-response]: https://badgen.net/uptime-robot/response/m791543526-18f7ccd6063fcf22ce126e7f?cache=3600
-[render-stats]: https://stats.uptimerobot.com/nvFNpdDe66/791543526
+[render-status]: https://img.shields.io/uptimerobot/ratio/m801663211-396405c5b4894cbe881b068c
+[render-response]: https://badgen.net/uptime-robot/response/m801663211-396405c5b4894cbe881b068c?cache=3600
+[render-stats]: https://stats.uptimerobot.com/nvFNpdDe66/801663211
 [railway-button]: https://railway.com/button.svg
 [railway-deploy]: https://railway.com/deploy/0YUyGY?referralCode=Wf7n-3
 [railway-status]: https://img.shields.io/uptimerobot/ratio/m801656512-ed52f7df1f229a7690cf2abc
