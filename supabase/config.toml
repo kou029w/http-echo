@@ -1,0 +1,5 @@
+[functions.http-echo]
+enabled = true
+entrypoint = "./functions/http-echo/index.ts"
+import_map = "./functions/http-echo/deno.json"
+verify_jwt = false
