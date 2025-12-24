@@ -11,6 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: flyctl deploy --remote-only
+      - name: Deploy to Fly.io
+        run: |
+          flyctl deploy --remote-only
+          flyctl scale vm shared-cpu-1x
+          flyctl scale count 1
         env:
           FLY_API_TOKEN: "${{ secrets.FLY_API_TOKEN }}"
